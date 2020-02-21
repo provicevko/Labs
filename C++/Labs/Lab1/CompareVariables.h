@@ -4,7 +4,7 @@ using namespace std;
 class CompareVariables
 {
 public: void mainFunc(int  num1, int  num2)
-{
+{ 
     Comparing(num1, num2);
 }
 private: static bool Comparing(int num1, int num2)
