@@ -1,0 +1,8 @@
+C:\Users\provi\Labs\CSharp\CSharp\Lab2\bin\Debug\Lab2.exe
+C:\Users\provi\Labs\CSharp\CSharp\Lab2\bin\Debug\Lab2.pdb
+C:\Users\provi\Labs\CSharp\CSharp\Lab2\obj\Debug\Lab2.csprojAssemblyReference.cache
+C:\Users\provi\Labs\CSharp\CSharp\Lab2\obj\Debug\Lab2.exe
+C:\Users\provi\Labs\CSharp\CSharp\Lab2\obj\Debug\Lab2.pdb
+C:\Users\provi\Labs\CSharp\CSharp\Lab2\bin\Debug\Lab2Dll.dll
+C:\Users\provi\Labs\CSharp\CSharp\Lab2\bin\Debug\Lab2Dll.pdb
+C:\Users\provi\Labs\CSharp\CSharp\Lab2\obj\Debug\Lab2.csproj.CopyComplete
