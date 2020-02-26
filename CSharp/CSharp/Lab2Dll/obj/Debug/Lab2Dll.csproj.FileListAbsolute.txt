@@ -1,0 +1,5 @@
+C:\Users\provi\Labs\CSharp\CSharp\Lab2Dll\bin\Debug\Lab2Dll.dll
+C:\Users\provi\Labs\CSharp\CSharp\Lab2Dll\bin\Debug\Lab2Dll.pdb
+C:\Users\provi\Labs\CSharp\CSharp\Lab2Dll\obj\Debug\Lab2Dll.csprojAssemblyReference.cache
+C:\Users\provi\Labs\CSharp\CSharp\Lab2Dll\obj\Debug\Lab2Dll.dll
+C:\Users\provi\Labs\CSharp\CSharp\Lab2Dll\obj\Debug\Lab2Dll.pdb
