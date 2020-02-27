@@ -1,14 +1,17 @@
-﻿namespace Lab1
+﻿using System;
+
+namespace Lab1
 {
     internal class Program
     {
         public static void Main(string[] args)
         {
-            Increment obj = new Increment();
-            obj.mainFunc(15);
+            int num = 15;
+            Increment.IncrementNum(ref num);
             
             CompareVariables cmp = new CompareVariables();
-            cmp.mainFunc(-125,12);
+            bool t = cmp.Comparing(-125, 12);
+            
         }
     }
 }

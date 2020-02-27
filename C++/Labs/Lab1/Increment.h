@@ -3,11 +3,7 @@
 using namespace std;
 class Increment
 {
-public: void mainFunc(int number)
-{
-    IncrementNum(number);
-}
-private: static void IncrementNum(int& number)
+public: void IncrementNum(int& number)
 {
     int mask = 1;
     while (number & mask)

@@ -2,13 +2,9 @@
 
 namespace Lab1
 {
-    public class Increment
+    public static class Increment
     {
-        internal void mainFunc(int number)
-        {
-            IncrementNum(ref number);
-        }
-        private static void IncrementNum(ref int number)
+        internal static void IncrementNum(ref int number)
         {
             int mask = 1;
             while ((number & mask) != 0)

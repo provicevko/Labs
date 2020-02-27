@@ -3,9 +3,11 @@
 #include "CompareVariables.h" 
 int main()
 {
+    int num = 15;
     Increment obj = Increment();
-    obj.mainFunc(17);
+    obj.IncrementNum(num);
 
     CompareVariables cmp = CompareVariables();
-    cmp.mainFunc(56,54);
+    bool t = cmp.Comparing(-125,12);
+
 }

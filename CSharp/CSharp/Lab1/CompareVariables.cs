@@ -5,11 +5,7 @@ namespace Lab1
 {
     public class CompareVariables
     {
-        internal void mainFunc(int num1, int num2)
-        {
-            Comparing(num1, num2);
-        } 
-        private static bool Comparing(int num1, int num2)
+        internal bool Comparing(int num1, int num2)
         {
             if ((num1 & (1 << Marshal.SizeOf(num1)*8 - 1))!=0 && 
                 (num2 & (1 << Marshal.SizeOf(num2)*8 - 1))==0) return false;
