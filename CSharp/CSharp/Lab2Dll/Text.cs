@@ -6,6 +6,10 @@ namespace Lab2Dll
     {
         public String[] Text;
 
+        public TextCont()
+        {
+            Text = new String[0];
+        }
         public TextCont(char[][] text)
         {
             Text = new String[text.Length];
@@ -17,26 +21,33 @@ namespace Lab2Dll
         
         public void AddStr(char[] str)
         {
-            int countStr = Text.GetLength(0);
-            String[] CopyText = Text;
-            Text = new String[countStr+1];
-            for (int i = 0; i < countStr; i++)
+            if (str != null)
             {
-                Text[i] = CopyText[i];
+                int countStr = Text.GetLength(0);
+                String[] CopyText = Text;
+                Text = new String[countStr + 1];
+                for (int i = 0; i < countStr; i++)
+                {
+                    Text[i] = CopyText[i];
+                }
+
+                Text[countStr] = new String(str);
             }
-            Text[countStr] = new String(str);
         }
 
         public void DeleteStr(int index)
         {
-            int countStr = Text.GetLength(0);
-            String[] CopyText = Text;
-            Text = new String[countStr-1];
-            --index;
-            for (int i = 0; i < countStr-1; i++)
+            if (index - 1 <= Text.GetLength(0) && index - 1 >= 0)
             {
-                if(i < index) Text[i] = CopyText[i];
-                else Text[i] = CopyText[i+1];
+                int countStr = Text.GetLength(0);
+                String[] CopyText = Text;
+                Text = new String[countStr - 1];
+                --index;
+                for (int i = 0; i < countStr - 1; i++)
+                {
+                    if (i < index) Text[i] = CopyText[i];
+                    else Text[i] = CopyText[i + 1];
+                }
             }
         }
 

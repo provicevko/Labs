@@ -10,6 +10,11 @@ namespace Lab2Dll
         int countStr;
         String* Text;
 
+        TextCont()
+        {
+            Text = new String[0];
+        }
+
         TextCont(char** text, const int countStr)
         {
             Text = new String[countStr];
@@ -21,31 +26,36 @@ namespace Lab2Dll
         }
         void AddStr(char* str)
         {
-            String* CopyText = Text;
-            Text = new String[countStr+1];
-            for (int i = 0; i < countStr; i++)
-            {
-                Text[i] = CopyText[i];
+            if (str != NULL) {
+                String* CopyText = Text;
+                Text = new String[countStr + 1];
+                for (int i = 0; i < countStr; i++)
+                {
+                    Text[i] = CopyText[i];
+                }
+                delete[] CopyText;
+                Text[countStr] = String(str);
+                countStr++;
             }
-            delete[] CopyText;
-            Text[countStr] = String(str);
-            countStr++;
         }
         void DeleteStr(int index)
         {
-            String* CopyText = Text;
-            --index;
-            countStr--;
-            Text = new String[countStr];
-            for (int i = 0; i < countStr; i++)
-            {
-                if (i < index) Text[i] = CopyText[i];
-                else Text[i] = CopyText[i + 1];
+            if (index - 1 <= countStr && index - 1 >= 0) {
+                String* CopyText = Text;
+                --index;
+                countStr--;
+                Text = new String[countStr];
+                for (int i = 0; i < countStr; i++)
+                {
+                    if (i < index) Text[i] = CopyText[i];
+                    else Text[i] = CopyText[i + 1];
+                }
+                delete[] CopyText;
             }
-            delete[] CopyText;
         }
         void ClearText()
         {
+            delete[] Text;
             Text = new String[0];
         }
         float GetAverageLength()

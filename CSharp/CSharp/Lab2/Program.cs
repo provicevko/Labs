@@ -17,7 +17,7 @@
              };
  
              Lab2Dll.TextCont obj = new TextCont(arr);
-             obj.AddStr("nu tipa str34689!on".ToCharArray());
+             obj.AddStr("nu str34689!on".ToCharArray());
              obj.DeleteStr(2);
              obj.GetAverageLength();
              obj.PersentVowels();
