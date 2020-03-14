@@ -7,9 +7,10 @@ namespace Lab3
         public static void Main(string[] args)
         {
             TwoDimensionalArray matrix = new TwoDimensionalArray();
-            Console.WriteLine(matrix[7,1]);
-            Console.WriteLine(matrix.CountCols);
-            Console.WriteLine(matrix.CountRows);
+            if (matrix[7, 8] != Int32.MinValue)
+            {
+                int elem = matrix[7, 8];
+            }
         }
     }
 }
