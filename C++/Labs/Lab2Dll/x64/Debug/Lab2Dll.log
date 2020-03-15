@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  Lab2Dll.cpp
+  String.cpp
+  TextCont.cpp
+E:\Labs\C++\Labs\Lab2Dll\TextCont.h(90,1): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  Lab2Dll.vcxproj -> E:\Labs\C++\Labs\x64\Debug\Lab2Dll.lib

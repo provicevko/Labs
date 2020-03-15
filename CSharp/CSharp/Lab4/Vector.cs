@@ -43,9 +43,9 @@ namespace Lab4
         
         public double GetLength(double coord) => Math.Sqrt(3*Math.Pow(coord,2));
         
-        public double[] getVector() => new[]{x,y,z};
+        public double[] GetVector() => new[]{x,y,z};
 
-        public double[] getVector(Vector vec) => new[] {vec.X, vec.Y, vec.Z};
+        public static double[] GetVector(Vector vec) => new[] {vec.X, vec.Y, vec.Z};
 
         public static Vector operator *(double c, Vector vec) => new Vector(c * vec.x, c* vec.y, c* vec.z);
 

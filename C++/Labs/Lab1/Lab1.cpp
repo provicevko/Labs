@@ -9,5 +9,4 @@ int main()
 
     CompareVariables cmp = CompareVariables();
     bool t = cmp.Comparing(-125,12);
-
 }
