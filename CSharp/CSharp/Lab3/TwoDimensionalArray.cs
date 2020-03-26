@@ -35,7 +35,7 @@ namespace Lab3
             {
                 int shift = 5;
                 
-                if (i >= shift && j >= shift && i <= this.Rows + shift && j <=
+                if (i >= shift && j >= shift && i < this.Rows + shift && j <
                     this.Cols+shift)
                 {
                     return Matrix[i-shift, j-shift];
