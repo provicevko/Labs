@@ -36,18 +36,19 @@ class Vector{
         double Y(){ return y; }
         double Z(){ return z; }
 
-        double GetLength(double x, double y, double z) 
+        static double GetLength(double x, double y, double z) 
         {
             return sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2));
         }
-        double GetLength(Vector vec) 
-        {
-            return sqrt(pow(vec.x, 2) + pow(vec.y, 2) + pow(vec.z, 2));
-        }
 
-        double GetLength(double coord)
+        static double GetLength(double coord)
         {
             return sqrt(3 * pow(coord, 2));
+        }
+
+        double GetLength()
+        {
+            return sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2));
         }
 
         double* GetVector() 
@@ -55,10 +56,6 @@ class Vector{
             return new double[3]{ x, y, z };
         }
 
-        static double* GetVector(Vector& vec)
-        {
-            return new double[3]{vec.X(), vec.Y(), vec.Z()};
-        }
         friend Vector operator*(double c, Vector& vec) {
             Vector temp(c * vec.x, c * vec.y, c * vec.z);
             return temp;
@@ -86,4 +83,3 @@ class Vector{
             return temp;
         }
 };
-

@@ -13,5 +13,4 @@ int main()
     cout << v1.X() <<"\t"<<v1.Y() <<"\t"<< v1.Z()<<endl;
     cout << v2.X() <<"\t"<<v2.Y() <<"\t"<< v2.Z()<< endl;
     cout << v3.X() <<"\t"<<v3.Y() <<"\t"<< v3.Z()<< endl;
-
 }
