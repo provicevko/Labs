@@ -1,0 +1,6 @@
+E:\Labs\CSharp\CSharp\Lab5\bin\Debug\Lab5.exe
+E:\Labs\CSharp\CSharp\Lab5\bin\Debug\Lab5.pdb
+E:\Labs\CSharp\CSharp\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+E:\Labs\CSharp\CSharp\Lab5\obj\Debug\Lab5.exe
+E:\Labs\CSharp\CSharp\Lab5\obj\Debug\Lab5.pdb
+E:\Labs\CSharp\CSharp\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
