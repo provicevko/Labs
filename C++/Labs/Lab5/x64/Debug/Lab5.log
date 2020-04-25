@@ -1,2 +1,9 @@
 ﻿  Lab5.cpp
+  Line.cpp
+  LineSegment.cpp
+  LowerRegister.cpp
+  String.cpp
+E:\Labs\C++\Labs\Lab5\String.cpp(7,46): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  UpperRegister.cpp
+  Generating Code...
   Lab5.vcxproj -> E:\Labs\C++\Labs\x64\Debug\Lab5.exe

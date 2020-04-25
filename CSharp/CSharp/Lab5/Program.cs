@@ -6,6 +6,9 @@ namespace Lab5
     {
         public static void Main(string[] args)
         {
+            UpperRegister obj = new UpperRegister("rfghrtg");
+            obj.PasteSymbol();
+            Console.WriteLine(obj.Str);
             // try
             // {
             //     LineSegment obj = new LineSegment(0, 0, 4, 2);
@@ -30,6 +33,7 @@ namespace Lab5
             // obj.PasteSymbol('K');
             // Console.WriteLine(obj.Str);
             // Console.WriteLine(obj.GetLength());
+            
         }
     }
 }
