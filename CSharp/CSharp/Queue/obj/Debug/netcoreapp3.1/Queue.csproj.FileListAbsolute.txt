@@ -1,0 +1,9 @@
+E:\Labs\CSharp\CSharp\Queue\bin\Debug\netcoreapp3.1\Queue.deps.json
+E:\Labs\CSharp\CSharp\Queue\bin\Debug\netcoreapp3.1\Queue.dll
+E:\Labs\CSharp\CSharp\Queue\bin\Debug\netcoreapp3.1\Queue.pdb
+E:\Labs\CSharp\CSharp\Queue\obj\Debug\netcoreapp3.1\Queue.csprojAssemblyReference.cache
+E:\Labs\CSharp\CSharp\Queue\obj\Debug\netcoreapp3.1\Queue.csproj.CoreCompileInputs.cache
+E:\Labs\CSharp\CSharp\Queue\obj\Debug\netcoreapp3.1\Queue.AssemblyInfoInputs.cache
+E:\Labs\CSharp\CSharp\Queue\obj\Debug\netcoreapp3.1\Queue.AssemblyInfo.cs
+E:\Labs\CSharp\CSharp\Queue\obj\Debug\netcoreapp3.1\Queue.dll
+E:\Labs\CSharp\CSharp\Queue\obj\Debug\netcoreapp3.1\Queue.pdb

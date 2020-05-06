@@ -1,0 +1,16 @@
+E:\Labs\CSharp\CSharp\QueueConsole\bin\Debug\netcoreapp3.1\QueueConsole.exe
+E:\Labs\CSharp\CSharp\QueueConsole\bin\Debug\netcoreapp3.1\QueueConsole.deps.json
+E:\Labs\CSharp\CSharp\QueueConsole\bin\Debug\netcoreapp3.1\QueueConsole.runtimeconfig.json
+E:\Labs\CSharp\CSharp\QueueConsole\bin\Debug\netcoreapp3.1\QueueConsole.runtimeconfig.dev.json
+E:\Labs\CSharp\CSharp\QueueConsole\bin\Debug\netcoreapp3.1\QueueConsole.dll
+E:\Labs\CSharp\CSharp\QueueConsole\bin\Debug\netcoreapp3.1\QueueConsole.pdb
+E:\Labs\CSharp\CSharp\QueueConsole\bin\Debug\netcoreapp3.1\Queue.dll
+E:\Labs\CSharp\CSharp\QueueConsole\bin\Debug\netcoreapp3.1\Queue.pdb
+E:\Labs\CSharp\CSharp\QueueConsole\obj\Debug\netcoreapp3.1\QueueConsole.csprojAssemblyReference.cache
+E:\Labs\CSharp\CSharp\QueueConsole\obj\Debug\netcoreapp3.1\QueueConsole.csproj.CoreCompileInputs.cache
+E:\Labs\CSharp\CSharp\QueueConsole\obj\Debug\netcoreapp3.1\QueueConsole.AssemblyInfoInputs.cache
+E:\Labs\CSharp\CSharp\QueueConsole\obj\Debug\netcoreapp3.1\QueueConsole.AssemblyInfo.cs
+E:\Labs\CSharp\CSharp\QueueConsole\obj\Debug\netcoreapp3.1\QueueConsole.csproj.CopyComplete
+E:\Labs\CSharp\CSharp\QueueConsole\obj\Debug\netcoreapp3.1\QueueConsole.dll
+E:\Labs\CSharp\CSharp\QueueConsole\obj\Debug\netcoreapp3.1\QueueConsole.pdb
+E:\Labs\CSharp\CSharp\QueueConsole\obj\Debug\netcoreapp3.1\QueueConsole.genruntimeconfig.cache

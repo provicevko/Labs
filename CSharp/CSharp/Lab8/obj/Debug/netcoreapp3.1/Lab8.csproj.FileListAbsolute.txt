@@ -1,0 +1,13 @@
+E:\Labs\CSharp\CSharp\Lab8\bin\Debug\netcoreapp3.1\Lab8.exe
+E:\Labs\CSharp\CSharp\Lab8\bin\Debug\netcoreapp3.1\Lab8.deps.json
+E:\Labs\CSharp\CSharp\Lab8\bin\Debug\netcoreapp3.1\Lab8.runtimeconfig.json
+E:\Labs\CSharp\CSharp\Lab8\bin\Debug\netcoreapp3.1\Lab8.runtimeconfig.dev.json
+E:\Labs\CSharp\CSharp\Lab8\bin\Debug\netcoreapp3.1\Lab8.dll
+E:\Labs\CSharp\CSharp\Lab8\bin\Debug\netcoreapp3.1\Lab8.pdb
+E:\Labs\CSharp\CSharp\Lab8\obj\Debug\netcoreapp3.1\Lab8.csprojAssemblyReference.cache
+E:\Labs\CSharp\CSharp\Lab8\obj\Debug\netcoreapp3.1\Lab8.csproj.CoreCompileInputs.cache
+E:\Labs\CSharp\CSharp\Lab8\obj\Debug\netcoreapp3.1\Lab8.AssemblyInfoInputs.cache
+E:\Labs\CSharp\CSharp\Lab8\obj\Debug\netcoreapp3.1\Lab8.AssemblyInfo.cs
+E:\Labs\CSharp\CSharp\Lab8\obj\Debug\netcoreapp3.1\Lab8.dll
+E:\Labs\CSharp\CSharp\Lab8\obj\Debug\netcoreapp3.1\Lab8.pdb
+E:\Labs\CSharp\CSharp\Lab8\obj\Debug\netcoreapp3.1\Lab8.genruntimeconfig.cache
