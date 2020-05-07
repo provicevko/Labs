@@ -4,9 +4,8 @@ namespace MyQueue
 {
     public class Queue
     {
-        public delegate void QueueStateHandler(object sender, QueueEvent e);
-        protected internal event QueueStateHandler QueueOverflow;
-        protected internal event QueueStateHandler QueueAnyElements;
+        public event QueueStateHandler QueueOverflow;
+        public event QueueStateHandler QueueAnyElements;
 
         private double[] _queue;
         private int _index;
@@ -22,15 +21,6 @@ namespace MyQueue
             _queue = new double[size];
         }
 
-        public void RegisterHandler(QueueStateHandler alert)
-        {
-            if (alert != null)
-            {
-                QueueOverflow += alert;
-                QueueAnyElements += alert;
-            }
-        }
-
         private void CallEvent(QueueEvent e, QueueStateHandler handler)
         {
             if (e != null)
@@ -39,8 +29,8 @@ namespace MyQueue
             }
         }
 
-        private void OnOverflow(QueueEvent e) => CallEvent(e,QueueOverflow);
-        private void OnAnyElements(QueueEvent e) => CallEvent(e,QueueAnyElements);
+        protected virtual void OnOverflow(QueueEvent e) => CallEvent(e,QueueOverflow);
+        protected virtual void OnAnyElements(QueueEvent e) => CallEvent(e,QueueAnyElements);
 
         public void Push(double elem)
         {

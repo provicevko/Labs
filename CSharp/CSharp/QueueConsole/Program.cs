@@ -10,7 +10,8 @@ namespace QueueConsole
             try
             {
                 Queue queue = new Queue(5);
-                queue.RegisterHandler(Alert);
+                queue.QueueOverflow += Alert;
+                queue.QueueAnyElements += Alert;
                 queue.Push(-547);
                 queue.Push(-548);
                 queue.Push(-549);
@@ -23,6 +24,7 @@ namespace QueueConsole
                 queue.Push(-552);
                 queue.Delete();
                 Console.WriteLine(queue.Peek());
+                queue.Delete();
                 queue.Delete();
                 queue.Delete();
                 queue.Delete();
