@@ -1,8 +1,6 @@
-﻿using System;
- using Lab2Dll;
- using String = Lab2Dll.String;
- 
- namespace Lab2
+﻿using Lab2Dll;
+
+namespace Lab2
  {
      internal class Program
      {

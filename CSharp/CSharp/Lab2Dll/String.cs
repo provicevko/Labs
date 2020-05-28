@@ -1,7 +1,6 @@
 ﻿using System;
- using System.Collections;
- 
- namespace Lab2Dll
+
+namespace Lab2Dll
  {
      public class String
      {

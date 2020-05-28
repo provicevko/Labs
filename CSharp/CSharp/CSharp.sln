@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueConsole", "QueueConsole\QueueConsole.csproj", "{CBBA4AFE-C124-4D60-928E-39A946B190A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7", "Lab7\Lab7.csproj", "{CC2F8FF2-A078-4F90-904F-7D0A2731234B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{CBBA4AFE-C124-4D60-928E-39A946B190A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBBA4AFE-C124-4D60-928E-39A946B190A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBBA4AFE-C124-4D60-928E-39A946B190A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2F8FF2-A078-4F90-904F-7D0A2731234B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2F8FF2-A078-4F90-904F-7D0A2731234B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2F8FF2-A078-4F90-904F-7D0A2731234B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2F8FF2-A078-4F90-904F-7D0A2731234B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
